@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const logToConsole = msg => {
   console.log(msg);
 };
