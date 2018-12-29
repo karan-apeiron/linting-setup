@@ -1,0 +1,34 @@
+{
+  "name": "prettier-setup",
+  "version": "1.0.0",
+  "description": "setup prettier with eslint, husly and lint-staged ",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "format": "prettier --write \"src/**/*.+(js|md|ts|css|sass|less|graphql|json)\"",
+    "lint": "eslint '**/*.js' --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:karan-apeiron/linting-setup.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "husky",
+    "lint-staged"
+  ],
+  "author": "karan dhillon",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3"
+  }
+}
