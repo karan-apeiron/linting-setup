@@ -1,4 +1,4 @@
-var logToConsole = msg => {
+const logToConsole = msg => {
   console.log(msg);
 };
 
